@@ -1,9 +1,10 @@
 import './style.css'
 
-const Greeting = ({user}) => {
+const Greeting = ({tchubaruba}) => {
+
     const greetingText = () => {
-        if(user.lastName) {
-            return `${user.firstName} ${user.lastName}`;
+        if(tchubaruba.lastName) {
+            return `${tchubaruba.firstName} ${tchubaruba.lastName}`;
         }
         return 'Turma desconhecida';
     }
